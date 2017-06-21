@@ -1,0 +1,5 @@
+tweepy==3.5.0
+pytelegrambotapi==2.1.6
+requests
+flask
+
