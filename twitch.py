@@ -29,8 +29,8 @@ class Twitch:
             views = str(self.json_object_of_channel['views'])
             followers = str(self.json_object_of_channel['followers'])
 
-            return status, game, language, views, followers
-
+            return url
+            
         else:
             status = 'online'
             game = str(self.json_object_of_stream['stream']['game'])
